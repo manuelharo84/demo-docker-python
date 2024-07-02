@@ -24,7 +24,7 @@ git add -A
 --realiza el commit
 git commit -m "Descripción del cambio"
 --subimos la rama a la nube
-git puss origin otraFeature
+git puhs origin otraFeature
 --camabiamos a la rama master
 git checkout main
 --vemos que la rama master está actualizada

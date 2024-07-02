@@ -30,10 +30,13 @@ git checkout main
 --vemos que la rama master está actualizada
 git pull origin main
 --vemos las ramas realizadas merge
-git branch --merged
+git branch --merge
 --hacemos merge los nuevos cambios en main
 git merge otraFeature
 -- subimos los cambios a git
 git push origin main
 --eliminanos la rama 
 git push origin --delete otraFeature
+
+--eliminamos ramas locales, no es necesario pero se puede hacer
+git branch -d nombreRama
